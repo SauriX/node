@@ -17,7 +17,7 @@ app.use(require('./rutas/galeria.ruta'));
 app.use(require('./rutas/articulos.ruta'));
 
 /* conexion */
-mongoose.connect('mongodb+srv://vue-team-20:<password>@cluster0.tnwo6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://sauri:sauri@cluster0.i1ypn.mongodb.net/apirest', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
