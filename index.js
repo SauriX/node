@@ -24,7 +24,7 @@ mongoose.connect('mongodb+srv://sauri:sauri@cluster0.i1ypn.mongodb.net/apirest',
   useCreateIndex: true
 },(err,res)=>{
     if(err) throw err;
-    console.log("conectado");
+    console.log("conectados");
 });
 
 /* puerto */
